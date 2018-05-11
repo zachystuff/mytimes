@@ -1,0 +1,24 @@
+body {
+  margin= 0;
+}
+/* Header */
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.headerlogo {
+  display: inline-flex;
+  color: MediumAquamarine;
+}
+
+.navheader {
+  display: inline-flex;
+}
+
+.navheader li {
+  display: inline-block;
+}
