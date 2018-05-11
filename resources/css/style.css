@@ -22,3 +22,7 @@ header {
 .navheader li {
   display: inline-block;
 }
+
+.navheader a {
+  color: Black;
+}
