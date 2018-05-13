@@ -2,54 +2,73 @@ body {
   margin= 0;
 }
 /* Header */
+
 header {
   display: flex;
+  flex-direction: row;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
 .headerlogo {
-  display: inline-flex;
   color: MediumAquamarine;
+  flex: 3 1 400px;
 }
 
 .navheader {
-  display: inline-flex;
+  flex: 1 1 150px;
 }
 
 .navheader li {
+  margin: 5px;
+}
+
+.navheader span {
+  color: Black;
   display: inline-block;
 }
-
-.navheader a {
-  color: Black;
-}
 /* main content */
-
 content {
   display: flex;
+  position: relative;
+  top: 200px;
 }
 
 .section {
-  display: flex;
+  display: inline-flex;
   flex-flow: column wrap;
   border: 1px black solid;
+  justify-content: space-around;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 3px;
 }
 /* columns */
+
 .first.section {
   width: 630px;
+  display: flex;
 }
 
 .second.section {
   width: 300px;
+  display: flex;
 }
 
 .third.section {
   width: 240px;
+  justify-content: flex-start;
+  display: flex;
 }
 /* articles */
-
 .article {
   border: 1px black dotted;
+}
+/* image backgrounds */
+.first.article p {
+  background-image: url("C:\Users\zachy\projects\mytimes\resources\images\img-story-main.png");
 }
