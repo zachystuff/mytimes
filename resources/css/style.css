@@ -2,7 +2,6 @@ body {
   margin= 0;
 }
 /* Header */
-
 header {
   display: flex;
   font-family: Verdana;
@@ -25,4 +24,32 @@ header {
 
 .navheader a {
   color: Black;
+}
+/* main content */
+
+content {
+  display: flex;
+}
+
+.section {
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px black solid;
+}
+/* columns */
+.first.section {
+  width: 630px;
+}
+
+.second.section {
+  width: 300px;
+}
+
+.third.section {
+  width: 240px;
+}
+/* articles */
+
+.article {
+  border: 1px black dotted;
 }
