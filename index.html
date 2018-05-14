@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Zachy's Times</title>
-  <!--<link href="resources\css\style.css" rel="stylesheet" type="text/css"> -->
+  <link href="resources\css\style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -12,12 +12,12 @@
   <!-- Header -->
   <header>
     <!-- logo section -->
-    <div class="headerlogo">
-      <img src="resources\images\img-myt-logo.jpg" alt="times Logo">
+    <div class="logo">
+      <img src="resources\images\img-myt-logo.jpg" alt="times Logo" />
       <span>My Times</span>
     </div>
     <!-- header navigation -->
-    <nav class="navheader">
+    <nav>
       <span><a href="#">World</a></span>
       <span><a href="#">U.S</a></span>
       <span><a href="#">Tech</a></span>
@@ -26,13 +26,13 @@
   </header>
   <!-- Every single section is given a div to aid styling and content organization -->
   <!-- main body -->
-  <content>
+  <content class="content">
     <!-- first Column -->
-    <div class=" first column">
+    <div class="column large">
       <!-- first section 1stC -->
-      <div class="main-article">
+      <div class="lead-story">
         <!-- image -->
-        <div class="picture-section">
+        <div class="image-content">
           <span>Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</span>
         </div>
         <!-- narrative -->
@@ -51,7 +51,7 @@
             <p class="narrative">PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
           </div>
           <!-- image -->
-          <div class="fall-img">
+          <div class="image-content fall-cancelled">
             <span>Earth Spins Backwards for 2017</span>
           </div>
         </div>
@@ -63,14 +63,14 @@
             <p class="narrative"> Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
           </div>
           <!--image  -->
-          <div class="culture-img">
+          <div class="pop-culture image-content">
             <span>Research Shows Cameras Erase Memory</span>
           </div>
         </div>
       </div>
     </div>
     <!-- Second Column  -->
-    <div class="second column">
+    <div class="column medium">
       <!-- first section 2ndC -->
       <div class="story">
         <h2>FBI Finds Action Star Guilty of False Advertising</h2>
@@ -81,7 +81,7 @@
       <!-- second section 2ndC -->
       <div class="story">
         <!-- cat image -->
-        <div class="cat-ceo">
+        <div class="cat-ceo image-content">
           <span>Cats in Control-Is It a Thing?</span>
         </div>
         <!-- text -->
@@ -90,20 +90,34 @@
       </div>
     </div>
     <!-- third Column -->
-    <div class="third column">
+    <div class="column small">
       <!-- cookie image -->
       <img class="cookie" src="resources\images\img-news-bite.png" alt="cookie">
       <!-- news-bites section -->
       <div class="news-bites">
         <h3> NEWS BITES </h3>
-        <span class="biten">Cat Emoji Goes Viral</span>
-        <span class="biten">Buy Youtube Views Home Business Advertising Ideas</span>
-        <span class="biten">Advertising Internet Online</span>
-        <span class="biten">Illustration in Marketing Materials</span>
-        <span class="biten">Finally a Top Secret Way You Can</span>
+        <span class="bite">Cat Emoji Goes Viral</span>
+        <span class="bite">Buy Youtube Views Home Business Advertising Ideas</span>
+        <span class="bite">Advertising Internet Online</span>
+        <span class="bite">Illustration in Marketing Materials</span>
+        <span class="bite">Finally a Top Secret Way You Can</span>
       </div>
     </div>
   </content>
+  <!-- Footer Section -->
+  <footer>
+    <div class="info">
+      <span>MYTimes</span>
+      <!-- footer nav -->
+      <nav>
+        <span><a href="#">World</a></span>
+        <span><a href="#">U.S</a></span>
+        <span><a href="#">Tech</a></span>
+        <span><a href="#">Science</a></span>
+      </nav>
+    </div>
+    <div class="copyright"> &copy 2016, My Times (A Division of Codeacademy bite)</div>
+  </footer>
 </body>
 
 </html>
